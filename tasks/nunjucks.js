@@ -70,7 +70,7 @@ function nunjucks(resolve) {
     ])
     .pipe(
       nunjucksRender({
-        path: 'src',
+        path: 'src/_templates',
         manageEnv
       })
     )

@@ -11,13 +11,13 @@
       "name": "bookstores"
     }
   ],
-  "to_bake": [
-    {
-      "template": "bake-book",
-      "data": "library",
-      "array": "books",
-      "slug": "slug",
-      "path": "books"
-    }
-  ]
+    "to_bake": [
+      {
+        "template": "eras",
+        "data": "eras",
+        "array": "eras",
+        "slug": "slug",
+        "path": "eras"
+      }
+    ] 
 }

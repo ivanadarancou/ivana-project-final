@@ -1,0 +1,14 @@
+{
+  "eras": [
+    {
+      "slug": "2000s",
+      "title": "The 2000s",
+      "description": "An era of bold typography and heavy use of MySpace aesthetics."
+    },
+    {
+      "slug": "2010s",
+      "title": "The 2010s",
+      "description": "Minimalism, vaporwave revival, and more DIY zine culture."
+    }
+  ]
+}
