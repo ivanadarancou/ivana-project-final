@@ -1,0 +1,50 @@
+{% extends '_templates/base.njk' %}
+
+{% block page_title %}A Collection in Music{% endblock %}
+
+{% block content %}
+<div class="container">
+    {# <div class="container py-10">
+    <header class="text-center mb-12">
+      <h1 class="text-4xl font-bold mb-4">A Collection in Music</h1>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Exploring the evolution of graphic design in music—through iconic album covers, posters, and flyers across the decades.
+      </p>
+    </header>
+
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <a href="/category/era" class="group">
+        <div class="bg-gray-100 p-4 rounded-lg hover:shadow-lg transition">
+          <h2 class="text-xl font-semibold group-hover:underline">By Eras</h2>
+          <p class="text-sm text-gray-500">description here</p>
+        </div>
+      </a>
+
+      <a href="/category/genres" class="group">
+        <div class="bg-gray-100 p-4 rounded-lg hover:shadow-lg transition">
+          <h2 class="text-xl font-semibold group-hover:underline">By Genres</h2>
+          <p class="text-sm text-gray-500">description here</p>
+        </div>
+      </a>
+
+      <a href="/category/mediums" class="group">
+        <div class="bg-gray-100 p-4 rounded-lg hover:shadow-lg transition">
+          <h2 class="text-xl font-semibold group-hover:underline">By Mediums</h2>
+          <p class="text-sm text-gray-500">description</p>
+        </div>
+      </a>
+
+       <a href="/category/artists" class="group">
+        <div class="bg-gray-100 p-4 rounded-lg hover:shadow-lg transition">
+          <h2 class="text-xl font-semibold group-hover:underline">Iconic Artists</h2>
+          <p class="text-sm text-gray-500">description</p>
+        </div>
+      </a>
+    </section>
+
+    <div class="mt-16 text-center">
+      <a href="/blog" class="text-blue-600 underline text-lg">Read the blog →</a>
+    </div>
+  </div> #}
+</div>
+{% endblock %}
